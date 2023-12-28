@@ -1,0 +1,52 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Buton Stilleri */
+button {
+    padding: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+/* Form Stilleri */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Grafik Kartları Stilleri */
+.cards {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.cards:hover {
+    transform: scale(1.03);
+}
+.personeller-page label {
+    color: black !important;
+}

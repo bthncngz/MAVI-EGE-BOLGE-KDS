@@ -1,0 +1,82 @@
+/* Genel Stiller */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Sayfa arka plan rengi */
+}
+
+/* Navbar Stilleri */
+.navbar {
+    background-color: #343a40; /* Navbar arka plan rengi */
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+/* Sidebar Stilleri */
+#sidebar-nav {
+    background-color: #212529; /* Sidebar arka plan rengi */
+    color: #fff;
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+#sidebar-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar-nav li {
+    padding: 15px; /* Sidebar öğe iç boşluğu artırıldı */
+    border-bottom: 1px solid #444; /* Sidebar öğeleri arasına çizgi eklendi */
+}
+
+#sidebar-nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Renk geçişi efekti */
+}
+
+#sidebar-nav a:hover {
+    color: #ffd700;
+}
+
+/* Main Content Stilleri */
+.main {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Aktif sayfa için stil */
+#sidebar-nav .active {
+    background-color: #ffd700;
+    color: #333;
+}
+
+/* Kart stilleri */
+.cards {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.cards:hover {
+    transform: scale(1.03);
+}
+.mavi-resim {
+    max-width: 200px;
+    height: 80px;
+    /* Ek olarak, resmin maksimum genişliğini ve yüksekliğini belirleyebilirsiniz */
+    /* max-width: 200px;  // Örnek: Maksimum genişlik 200px */
+    /* max-height: 150px; // Örnek: Maksimum yükseklik 150px */
+}
+.personeller-page label {
+            color: black;
+        }
